@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/djwackey/dorsvr/auth"
-	gs "github.com/djwackey/dorsvr/groupsock"
-	"github.com/djwackey/dorsvr/livemedia"
+	"dorsvr/auth"
+	gs "dorsvr/groupsock"
+	"dorsvr/livemedia"
 	lg "github.com/djwackey/gitea/log"
 )
 

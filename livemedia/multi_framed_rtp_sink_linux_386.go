@@ -4,7 +4,7 @@ import (
 	sys "syscall"
 	"time"
 
-	gs "github.com/djwackey/dorsvr/groupsock"
+	gs "dorsvr/groupsock"
 )
 
 const rtpHeaderSize uint = 12

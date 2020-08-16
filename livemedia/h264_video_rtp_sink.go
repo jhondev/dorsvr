@@ -5,7 +5,7 @@ import (
 	"fmt"
 	sys "syscall"
 
-	gs "github.com/djwackey/dorsvr/groupsock"
+	gs "dorsvr/groupsock"
 	"github.com/djwackey/gitea/log"
 )
 

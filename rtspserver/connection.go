@@ -6,9 +6,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/djwackey/dorsvr/auth"
-	gs "github.com/djwackey/dorsvr/groupsock"
-	"github.com/djwackey/dorsvr/livemedia"
+	"dorsvr/auth"
+	gs "dorsvr/groupsock"
+	"dorsvr/livemedia"
 	"github.com/djwackey/gitea/log"
 )
 

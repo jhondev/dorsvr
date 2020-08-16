@@ -4,7 +4,7 @@ import (
 	"fmt"
 	sys "syscall"
 
-	gs "github.com/djwackey/dorsvr/groupsock"
+	gs "dorsvr/groupsock"
 )
 
 type MultiFramedRTPSource struct {

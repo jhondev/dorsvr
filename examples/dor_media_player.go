@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/djwackey/dorsvr/rtspclient"
+	"dorsvr/rtspclient"
 )
 
 func main() {

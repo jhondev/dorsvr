@@ -1,36 +1,42 @@
-Dorsvr Streaming Server
-=======================
+# Dorsvr Streaming Server
 
 [![Build Status](https://travis-ci.org/djwackey/dorsvr.svg?branch=master)](https://travis-ci.org/djwackey/dorsvr)
-[![Go Report Card](https://goreportcard.com/badge/github.com/djwackey/dorsvr)](https://goreportcard.com/report/github.com/djwackey/dorsvr)
-[![GitHub issues](https://img.shields.io/github/issues/djwackey/dorsvr.svg)](https://github.com/djwackey/dorsvr/issues)
+[![Go Report Card](https://goreportcard.com/badge/dorsvr)](https://goreportcard.com/report/dorsvr)
+[![GitHub issues](https://img.shields.io/github/issues/djwackey/dorsvr.svg)](https://dorsvr/issues)
+
 ## Modules
- * rtspserver - rtsp server
- * rtspclient - rtsp client
- * groupsock  - group socket
- * livemedia  - media library
+
+- rtspserver - rtsp server
+- rtspclient - rtsp client
+- groupsock - group socket
+- livemedia - media library
 
 ## Feature
- * Streaming Video (H264, M2TS)
- * Streaming Audio (MP3)
- * Protocols: RTP, RTCP, RTSP
- * Access Control
+
+- Streaming Video (H264, M2TS)
+- Streaming Audio (MP3)
+- Protocols: RTP, RTCP, RTSP
+- Access Control
 
 ## Install
-    go get github.com/djwackey/dorsvr
+
+    go get dorsvr
 
 ## Format
+
     $ make fmt
 
 ## Testing
+
     $ make test
 
 ## Example
+
 ```golang
 import (
     "fmt"
 
-    "github.com/djwackey/dorsvr/rtspserver"
+    "dorsvr/rtspserver"
 )
 
 func main() {
@@ -60,8 +66,11 @@ func main() {
     select {}
 }
 ```
+
 ## Author
+
 djwackey, worcy_kiddy@126.com
 
 ## LICENSE
-dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://github.com/djwackey/dorsvr/blob/master/LICENSE) for the full license text.
+
+dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://dorsvr/blob/master/LICENSE) for the full license text.

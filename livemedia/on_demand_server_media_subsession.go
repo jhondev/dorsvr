@@ -5,7 +5,7 @@ import (
 	"net"
 	"os"
 
-	gs "github.com/djwackey/dorsvr/groupsock"
+	gs "dorsvr/groupsock"
 )
 
 type OnDemandServerMediaSubsession struct {

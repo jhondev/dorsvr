@@ -1,7 +1,7 @@
 package rtspclient
 
 import (
-	"github.com/djwackey/dorsvr/livemedia"
+	"dorsvr/livemedia"
 	"github.com/djwackey/gitea/log"
 )
 
