@@ -1,6 +1,6 @@
 package livemedia
 
-import gs "dorsvr/groupsock"
+import gs "github.com/jhondev/dorsvr/groupsock"
 
 var TRANSPORT_PACKET_SIZE uint = 188
 var TRANSPORT_PACKETS_PER_NETWORK_PACKET uint = 7

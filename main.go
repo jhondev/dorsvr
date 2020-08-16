@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	//"dorsvr/auth"
-	"dorsvr/rtspserver"
+	//"github.com/jhondev/dorsvr/auth"
 	"github.com/djwackey/gitea/log"
+	"github.com/jhondev/dorsvr/rtspserver"
 )
 
 func main() {

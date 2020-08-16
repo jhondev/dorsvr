@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/djwackey/dorsvr.svg?branch=master)](https://travis-ci.org/djwackey/dorsvr)
 [![Go Report Card](https://goreportcard.com/badge/dorsvr)](https://goreportcard.com/report/dorsvr)
-[![GitHub issues](https://img.shields.io/github/issues/djwackey/dorsvr.svg)](https://dorsvr/issues)
+[![GitHub issues](https://img.shields.io/github/issues/djwackey/dorsvr.svg)](https://github.com/jhondev/dorsvr/issues)
 
 ## Modules
 
@@ -36,7 +36,7 @@
 import (
     "fmt"
 
-    "dorsvr/rtspserver"
+    "github.com/jhondev/dorsvr/rtspserver"
 )
 
 func main() {
@@ -73,4 +73,4 @@ djwackey, worcy_kiddy@126.com
 
 ## LICENSE
 
-dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://dorsvr/blob/master/LICENSE) for the full license text.
+dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://github.com/jhondev/dorsvr/blob/master/LICENSE) for the full license text.

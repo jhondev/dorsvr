@@ -3,7 +3,7 @@ package livemedia
 import (
 	"fmt"
 
-	gs "dorsvr/groupsock"
+	gs "github.com/jhondev/dorsvr/groupsock"
 )
 
 type BasicUDPSource struct {

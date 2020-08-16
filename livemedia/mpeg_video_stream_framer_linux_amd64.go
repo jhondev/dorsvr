@@ -1,7 +1,7 @@
 package livemedia
 
 import (
-	//"dorsvr/log"
+	//"github.com/jhondev/dorsvr/log"
 	sys "syscall"
 )
 

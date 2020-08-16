@@ -1,4 +1,4 @@
-module dorsvr
+module github.com/jhondev/dorsvr
 
 go 1.14
 

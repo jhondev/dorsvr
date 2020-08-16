@@ -1,7 +1,7 @@
 package livemedia
 
 import (
-	gs "dorsvr/groupsock"
+	gs "github.com/jhondev/dorsvr/groupsock"
 )
 
 //////// StreamState ////////

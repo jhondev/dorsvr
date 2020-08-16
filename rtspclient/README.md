@@ -5,7 +5,7 @@ It 's a RTSP client implemented by golang
 ## Install
 
 ```bash
-go get dorsvr/rtspclient
+go get github.com/jhondev/dorsvr/rtspclient
 ```
 
 ## Examples
