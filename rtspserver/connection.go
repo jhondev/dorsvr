@@ -6,10 +6,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/djwackey/gitea/log"
 	"github.com/jhondev/dorsvr/auth"
 	gs "github.com/jhondev/dorsvr/groupsock"
 	"github.com/jhondev/dorsvr/livemedia"
+	"github.com/jhondev/gitea/log"
 )
 
 const rtspBufferSize = 10000

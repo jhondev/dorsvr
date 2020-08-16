@@ -4,8 +4,8 @@ import (
 	sys "syscall"
 	"time"
 
-	"github.com/djwackey/gitea/log"
 	gs "github.com/jhondev/dorsvr/groupsock"
+	"github.com/jhondev/gitea/log"
 )
 
 const (
